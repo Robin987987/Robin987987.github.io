@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GraphQL</title>
+    <link rel="stylesheet" href="./static/style/style.css">
+    <script src="./script/script.js" type="module"></script>
+</head>
+
+<body>
+    <div id="nav">
+        <div class="temmp">
+            <button id="logoutButton">logout</button>
+        </div>
+    </div>
+
+    <form action="" method="POST" class="loginArea" id="loginArea">
+        <div class="usernameBox">
+            <label for="username">Username or Gmail</label>
+            <input id="usernameOrGmail" type="text" name="username" placeholder="username or password">
+        </div>
+        <div class="passwordBox">
+            <label for="password">password</label>
+            <input id="password" type="password" name="password" placeholder="password">
+        </div>
+        <button id="submitButton" type="submit">Submit</button>
+    </form>
+
+    <div id="app">
+        <div class="yellowBox">
+            <pre id="welcomeMessage"></pre>
+        </div>
+        <div class="yellowBox" id="skillsBox">
+            <svg id="lineGraph" width="400" height="300"></svg>
+        </div>
+        <div id="auditRatioBox" class="yellowBox">
+            <pre id="auditTextBox"></pre>
+            <svg id="pieChart" width="400" height="400"></svg>   
+        </div>
+    </div>
+   
+</body>
+
+</html>
